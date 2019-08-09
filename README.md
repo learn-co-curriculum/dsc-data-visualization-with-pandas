@@ -428,7 +428,7 @@ Pandas has a plotting tool that allows us to create a scatter matrix from a Data
 >The **scatter matrix** creates scatter plots between the different variables and histograms along the diagonals. 
 
 This allows us to quickly see some of the more obvious patterns in the data set. Let's use it to visualize the iris dataframe and see what insights we can gain from our data. 
-we will use the method `pd.tools.plotting.scatter_matrix()` and pass in our dataset as an argument.
+we will use the method `pd.plotting.scatter_matrix()` and pass in our dataset as an argument.
 
 
 ```python
