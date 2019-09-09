@@ -71,7 +71,7 @@ Let's build a synthetic temporal DataFrame with following steps:
 * Data frame with three columns A, B and C
 * For data in each column, we will use a random number generator to generate 365 numbers (to reflect days in a year) using `np.random.randn()`.
 * Using numpy's `cumsum` (cumulative sum) method, we will cumulatively sum the generated random numbers in each column. 
-* Offset column A by +25 and column C by -25 with respect to Column B, which will remain unchanged
+* Offset column B by +25 and column C by -25 with respect to Column A, which will remain unchanged
 * Using `pd.date_range`, set the index to be every day in 2018 (starting from 1st of January).
 
 We'll also set a seed for controlling the randomization, allowing us to reproduce the data. 
@@ -428,7 +428,7 @@ Pandas has a plotting tool that allows us to create a scatter matrix from a Data
 >The **scatter matrix** creates scatter plots between the different variables and histograms along the diagonals. 
 
 This allows us to quickly see some of the more obvious patterns in the data set. Let's use it to visualize the iris dataframe and see what insights we can gain from our data. 
-we will use the method `pd.plotting.scatter_matrix()` and pass in our dataset as an argument.
+we will use the method `pd.tools.plotting.scatter_matrix()` and pass in our dataset as an argument.
 
 
 ```python
