@@ -445,7 +445,7 @@ Pandas includes a plotting tool for creating parallel coordinates plots which co
 
 >Parallel coordinate plots are a common way of visualizing high dimensional multivariate data. Each variable in the dataset corresponds to an equally-spaced, parallel, vertical line. The values of each variable are then connected by lines between for each individual observation. 
 
-Let's create a parallel plot for the 4 predictor variables in the iris dataset and see if we can make any further judgements about the nature of data. We will use the `pd.plotting.parellel_coordinates()` function and pass in the `iris` dataset with the response column (species) as an argument, just like we saw above. Let's also apply some customizations.
+Let's create a parallel plot for the 4 predictor variables in the iris dataset and see if we can make any further judgments about the nature of data. We will use the `pd.plotting.parellel_coordinates()` function and pass in the `iris` dataset with the response column (species) as an argument, just like we saw above. Let's also apply some customizations.
 
 * Color the lines by class given in `'species'` column (this will allow handy inspection to see any patterns). 
 
